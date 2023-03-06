@@ -1,12 +1,13 @@
 # Cassandra Connection Properties
-hibernate:
-  ogm:
-    datastore:
-      provider: cassandra
-      host: localhost
-      keyspace: your_keyspace_name
+spring:
+  data:
+    cassandra:
+      contact-points: localhost
+      port: 9042
+      keyspace-name: your_keyspace_name
       username: your_username
       password: your_password
+
 
 # Hibernate Properties
 spring:
