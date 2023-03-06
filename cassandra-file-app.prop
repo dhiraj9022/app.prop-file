@@ -1,0 +1,6 @@
+# Cassandra Connection Properties
+spring.data.cassandra.contact-points=localhost
+spring.data.cassandra.port=9042
+spring.data.cassandra.keyspace-name=your_keyspace_name
+spring.data.cassandra.username=your_username
+spring.data.cassandra.password=your_password
